@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="blacklinden.intentgyak.MainActivity"
+    tools:ignore="ContentDescription"
+    android:background="@drawable/httr001">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="5"
+        android:gravity="center"
+        android:minLines="3"
+        android:maxLines="4"
+        android:text="LA GRAN BIBLIA DE CANNABIS"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_molek"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/pipa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="5dp"
+                                 />
+
+    <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tv"
+        android:layout_marginTop="21dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/ket"
+                android:layout_width="423dp"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="8dp"
+
+                android:background="@android:color/transparent"
+                android:paddingEnd="50dp"
+                android:paddingStart="0dp"
+                android:src="@drawable/ic_gold_bobi_empty"
+                android:text="@string/masodik" />
+
+            <ImageButton
+                android:id="@+id/egy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:paddingEnd="50dp"
+
+                android:paddingStart="0dp"
+                android:src="@drawable/ic_magvak"
+                android:text="@string/elso" />
+
+            <ImageButton
+                android:id="@+id/harm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="8dp"
+                android:background="@android:color/transparent"
+                android:paddingEnd="50dp"
+                android:paddingStart="0dp"
+                android:src="@drawable/ic_pipafust"
+                android:text="@string/harmadik" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+<LinearLayout
+    android:id="@+id/ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true">
+
+    <com.github.rubensousa.raiflatbutton.RaiflatButton
+        android:id="@+id/gomb3"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+
+
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:elevation="5dp"
+        android:paddingTop="15dp"
+
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Growroom"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.github.rubensousa.raiflatbutton.RaiflatButton
+        android:id="@+id/gomb2"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:elevation="5dp"
+        android:paddingTop="5dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Nutrition"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <com.github.rubensousa.raiflatbutton.RaiflatButton
+        android:id="@+id/gomb1"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:elevation="5dp"
+        android:paddingTop="5dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="Light Sensor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
+</RelativeLayout>

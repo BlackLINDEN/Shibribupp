@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#225">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="5dp"
+
+        app:cardBackgroundColor="#e0e0e0"
+        app:cardCornerRadius="19dp"
+        app:cardElevation="20dp"
+        app:cardPreventCornerOverlap="true">
+
+
+        <LinearLayout
+            android:id="@+id/tbl"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hetek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="12sp"
+                    android:layout_gravity="center"/>
+
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <EditText
+                    android:id="@+id/et"
+                    android:textColorHint="@color/colorAccent"
+                    android:hint="convert ammount"
+                    android:enabled="true"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:digits="0123456789."
+                    android:inputType="number"
+                    android:textColor="#000000" />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:popupBackground="@android:drawable/dialog_holo_light_frame"
+                    android:spinnerMode="dropdown"
+                    android:textColor="@color/colorAccent"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+
+                <Button
+                    android:id="@+id/számolj"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="2dp"
+                    android:layout_marginStart="2dp"
+                    android:popupBackground="@android:drawable/dialog_holo_light_frame"
+
+                    android:text="calculate"
+                    android:textColor="@color/colorAccent" />
+            </TableRow>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</RelativeLayout>

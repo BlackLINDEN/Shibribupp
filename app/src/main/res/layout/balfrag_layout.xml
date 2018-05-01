@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#7bae16">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="
+                Then there’s the gameplay. If you ever played one of the many Grand Theft Auto clones, you’ll know what to expect, which makes this offering all the more disappointing: there aren’t really missions, just shooting challenges framed around some semblance of a story.
+Game review: We Are Chicago – a flawed snapshot of a troubled city
+
+You drive around and interact with non-playing characters (mostly with your fist), but when it comes down to it, the game is all about shooting. Click on a “mission”, magically transport to that part of the map and shoot some guy – and then, as the game progresses, a bunch of guys. Ground-breaking stuff, this.
+How hard is it to mess up the GTA formula? Roughneck characters, gangster talk, cool car chases, a slightly realistic city and missions that seem important, even when they’re not. None of that is present in Gangstar: New Orleans, another free-to-play cash grab made for angry teens whose parents wouldn’t buy them the latest open-world console release.
+
+MOST POPULAR
+
+VIEWEDSHAREDCOMMENTED
+1
+November 22 was the 20th anniversary of INXS singer’s death, and to commemorate this, we have an archive interview with the star before his first Hong Kong gigs. Three years later he was found dead in a Sydney hotel room
+Michael Hutchence talks about growing up in Hong Kong
+2
+Buddhist former Merrill Lynch Asia Pacific head Michael Dobbs-Higginson recalls a life of thrills and spills, Hong Kong as a base but hardly a home, and a time when ‘lying and stealing’ didn’t define investment banking
+Ex-Hong Kong bank chief on a nobler era and his life of adventure
+3
+This still from the documentary Poets on Permits highlights the feeling of loneliness and isolation felt by many migrant workers in Singapore.
+Singapore’s lonely migrant worker poets feature in documentary
+4
+“The Anooki shake up Hong Kong”, one of 16 installations lighting up for three nights on Hong Kong Island and in Kowloon for three nights this week. Photo: Bernice Chan
+A bamboo forest in Statue Square? It’s just a trick of the light
+5
+Sandy beaches, theme parks, shopping malls, golf courses – the city has it all. No wonder more than 3.6 mil­lion Chinese rate it their favourite Western tourist destination. Downsides include horrendous traffic and drug-related crime
+The good, bad and ugly sides to a holiday on Australia’s Gold Coast
+PROMOTIONS
+Register for a free copy of Home Essentials 2018 now
+Register for a free copy of Home Essentials 2018 now
+ "
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+    </ScrollView>
+
+
+
+</LinearLayout>

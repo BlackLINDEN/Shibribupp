@@ -1,0 +1,13 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_pipafust" >
+
+    <target
+        android:name="els"
+        android:animation="@animator/fst01" />
+    <target
+        android:name="mas"
+        android:animation="@animator/fst02" />
+    <target
+        android:name="harm"
+        android:animation="@animator/fst03" />
+</animated-vector>
